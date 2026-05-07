@@ -1,5 +1,5 @@
 {% set name = "css_parser" %}
-{% set version = "1.21.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: 6753f5b8b49dd6d5c6a90f300d5a82af8399c19dbba56d886081740ec7014518
+    sha256: 23d1b247d7bc78cb2f2fe54629fb755e68d3004f1d1bd5c66d5096d42bff6325
 
 build:
   noarch: generic
